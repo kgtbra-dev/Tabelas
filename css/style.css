@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #f5f5f5;
     font-family:
         'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
         Verdana, sans-serif;
@@ -21,22 +21,23 @@ header {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(255, 158, 210);
+    background-color: black;
+    color: white;
     margin-bottom: 40px;
     align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: azure;
-    background-color: aquamarine;
+    color:black;
+    background-color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 5px;
     margin-right: 20px;
 }
 
 .lista {
-    background-color: rgb(255, 158, 210);
+    background-color: white;
     margin-bottom: 30px;
     padding-left: 20px;
 }
@@ -56,4 +57,19 @@ table {
 
 th, td {
 border: 1px solid;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
